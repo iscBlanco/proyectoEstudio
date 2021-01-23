@@ -1,4 +1,8 @@
 import React from 'react'
+import delineado from './assets/servicios/delineado.jpg'
+import laser from './assets/servicios/laser.jpg'
+import piercing from './assets/servicios/piercing.jpg'
+import smoke from './assets/servicios/smoke.jpg'
 
 function Servicios(){
     return(
@@ -8,19 +12,19 @@ function Servicios(){
                 <div class="service grid">
 
                     <a href="#">
-                        <img src="assets/servicios/delineado.jpg" alt="delineado"></img>
+                        <img src={delineado} alt="delineado"></img>
                         <h3>delineado</h3>
                     </a>
                     <a href="#">
-                        <img src="assets/servicios/laser.jpg" alt="laser"></img>
+                        <img src={laser} alt="laser"></img>
                         <h3>laser eliminacion de tatuajes</h3>
                     </a>
                     <a href="#">
-                        <img src="assets/servicios/piercing.jpg" alt="piercings"></img>
+                        <img src={piercing} alt="piercings"></img>
                         <h3>joyeria piercings</h3>
                     </a>
                     <a href="#">
-                        <img src="assets/servicios/smoke.jpg" alt="smoke shop"></img>
+                        <img src={smoke} alt="smoke shop"></img>
                         <h3>smoke shop</h3>
                     </a>
                 </div>
