@@ -1,4 +1,8 @@
 import React from 'react'
+import blanco from './assets/artistas/blanco.jpg'
+import grillo from './assets/artistas/grillo.jpg'
+import mara from './assets/artistas/mara.jpg'
+import sam from './assets/artistas/sam.jpg'
 
 function Artistas(){
     return(
@@ -8,19 +12,19 @@ function Artistas(){
             <div class="artista grid">
                 <h2>Aritstas</h2>
                 <a href="#">
-                    <img src="assets/artistas/blanco.jpg" alt="tatuador Blanco"></img>
+                    <img src={blanco} alt="tat  master "></img>
                     <h3>Blanco</h3>
                 </a>
                 <a href="#">
-                    <img src="assets/artistas/grillo.jpg" alt="tatuador Grillo"></img>
+                    <img src={grillo} alt="tatuador Grillo"></img>
                     <h3>Grillo</h3>
                 </a>
                 <a href="#">
-                    <img src="assets/artistas/sam.jpg" alt="perforadora Sam"></img>
+                    <img src={sam} alt="perforadora Sam"></img>
                     <h3>Sam</h3>
                 </a>
                 <a href="#">
-                    <img src="assets/artistas/mara.jpg" alt="perforadora Mara"></img>
+                    <img src={mara} alt="perforadora Mara"></img>
                     <h3>Mara</h3>
                 </a>
             </div>
