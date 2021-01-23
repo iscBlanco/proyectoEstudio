@@ -1,0 +1,190 @@
+/* variables */
+
+:root {
+    /* Color Theme Swatches in Hex */
+    --Moda-1-hex-color: #8C2E36;
+    --Moda-2-hex-color: #59222C;
+    --Moda-3-hex-color: #3B3A40;
+    --Moda-4-hex-color: #AAB1BF;
+    --Moda-5-hex-color: #0D0D0D;
+    /* Color Theme Swatches in Hex */
+    /* --Moda-1-hex-color: #BF212E;
+    --Moda-2-hex-color: #D92344;
+    --Moda-3-hex-color: #A61C1C;
+    --Moda-4-hex-color: #BFBFBF;
+    --Moda-5-hex-color: #0D0D0D; */
+}
+
+
+/* reset */
+
+body,
+p,
+a,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* base styles */
+
+
+/* fonts */
+
+
+/* @font-face {
+    font-family: 'tattoo_ink';
+    src: url('assets/fonts/tattoo_ink/TATTI___.TTF');
+}
+
+@font-face {
+    font-family: "infinity_stroke";
+    src: url("/assets/fonts/infinite_stroke/InfiniteStroke.woff");
+}
+
+@font-face {
+    font-family: "blacksword";
+    src: url("/assets/fonts/blacksword/Blacksword.woff");
+}
+ */
+
+h1 {
+    color: rgba(254, 254, 254, .5);
+    font-family: "blacksword";
+    font-size: 2em;
+}
+
+h2 {
+    color: rgba(254, 254, 254, .5);
+    font-family: "blacksword";
+    font-size: 1.5em;
+}
+
+h3 {
+    font-family: tattoo_ink;
+    color: rgba(254, 254, 254, .7);
+    font-size: .8em;
+}
+
+
+/* mobile styles */
+
+body {
+    background-color: var(--Moda-3-hex-color);
+    overflow-x: hidden;
+    font-size: 20px;
+}
+
+.navbar {
+    /* background-color: var(--Moda-2-hex-color); */
+    margin: 5px 5px;
+    border-radius: 8px;
+}
+
+.navbar h1 {
+    margin: 0 auto;
+}
+
+.navbar button {
+    display: none;
+}
+
+
+/* 
+.welcome {
+    background-image: url(".components/assets/dragonFondo.png");
+    background-color: rgba(001, 001, 001, .02);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: -20px;
+    opacity: 0.5;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.artistas {
+    padding: 5% 10%;
+    border-bottom: 3px solid var(--Moda-1-hex-color);
+}
+
+.artista a {
+    text-decoration: none;
+    grid-column: 1/9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artista {
+    background-color: rgba(1, 1, 1, .2);
+    padding: 5% 5%;
+}
+
+.artista img {
+    margin: 5% 5%;
+    border-radius: 50%;
+}
+
+.services {
+    padding: 5% 10%;
+    border-bottom: 3px solid var(--Moda-1-hex-color);
+}
+
+.service {
+    background-color: rgba(1, 1, 1, .08);
+    border-radius: 5px;
+    padding-right: 5%;
+}
+
+.service a {
+    text-decoration: none;
+    grid-column: span 4;
+    margin: 5% 10%;
+    text-align: center;
+}
+
+.service img {
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.contact-info {
+    padding: 5% 10%;
+}
+
+.contact address {
+    grid-column: 1/9;
+}
+
+
+/* small tablet styles */
+
+@media screen and (min-width: 620px) {}
+
+
+/* large tablets & laptop styles */
+
+@media screen and (min-width: 960px) {}
+
+
+/* desktop styles */
+
+@media screen and (min-width: 1200px) {}

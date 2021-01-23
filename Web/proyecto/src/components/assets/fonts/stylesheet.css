@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Blacksword';
+    src: url('Blacksword.woff2') format('woff2'),
+        url('Blacksword.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Infinite Stroke';
+    src: url('InfiniteStroke.woff2') format('woff2'),
+        url('InfiniteStroke.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Traditional-Tattoo';
+    src: url('TraditionalTattooRegular.woff2') format('woff2'),
+        url('TraditionalTattooRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
