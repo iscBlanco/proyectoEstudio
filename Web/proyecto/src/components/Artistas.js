@@ -12,7 +12,7 @@ function Artistas(){
             <div class="artista grid">
                 <h2>Aritstas</h2>
                 <a href="#">
-                    <img src={blanco} alt="tatuador Blanco"></img>
+                    <img src={blanco} alt="tat  master "></img>
                     <h3>Blanco</h3>
                 </a>
                 <a href="#">
